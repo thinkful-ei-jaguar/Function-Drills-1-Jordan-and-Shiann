@@ -5,9 +5,12 @@
 //}
 //createGreeting();
 
-function createGreeting() {
-    return 'Hi my name is Shiann and I\'m 32';
-}
-const greeting1 = createGreeting();
-console.log(greeting1);
+//function createGreeting() {
+   // return 'Hi my name is Shiann and I\'m 32';
+//}
+//const greeting1 = createGreeting();
+//console.log(greeting1);
 
+function createGreeting(name, age) {
+    return "My name is ${name} and I am ${age} years old."
+}
