@@ -11,6 +11,11 @@
 //const greeting1 = createGreeting();
 //console.log(greeting1);
 
+//function createGreeting(name, age) {
+   // return "My name is ${name} and I am ${age} years old."
+//}
+
 function createGreeting(name, age) {
-    return "My name is ${name} and I am ${age} years old."
-}
+    const yearofBirth = 2019 - age;
+    return 'I was born in ${yearofBith}.'
+};
